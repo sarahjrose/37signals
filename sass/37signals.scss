@@ -149,8 +149,17 @@ div.customers {
 
 	}
 
-	img {
+	img#one {
 		clear:both;
+	}
+
+	img#two {
+		position: absolute;
+		top: 120px;
+		left: 0px;
+	}
+	img#two-text {
+
 	}
 }
 div.manifesto {
@@ -210,6 +219,11 @@ div.manifesto {
 	div.point p {
 		margin: 0 0 0 45px;
 		font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+
+			a {
+				color: #369;
+				text-decoration: none;
+			}
 	}
 	div.column.next {
 		margin-right: 0;
@@ -237,10 +251,174 @@ div.book {
 			font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
 		}
 	
-		img {
-			position: absolute;
-			right: -90px;
-			top: 80px;
+		img.paper {
+			position:absolute;
+			right: -130px;
+			top: 75px;
 		}
+
+		img.check {
+			position:absolute;
+			right: 0px;
+			top: 130px;
+		}
+	}
+	div.review {
+		display:block;
+		width: 532px;
+		text-align:center;
+		margin-left:250px;
+		margin-top:80px;
+		position:relative;
+		margin-bottom:100px;
+
+		p {
+			font-style: italic;
+			color: #888;
+			font-size: 22px;
+		}
+
+		img {
+			position:absolute;
+			left: -300px;
+		}
+
+		span {
+			font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+			font-size: 12px;
+			margin: 0;
+		}
+	}
+}
+
+div.offer {
+
+	h2{
+			color: #232323;
+			margin: 30px 0;
+			font-size: 48px;
+			font-weight: 500;
+			font-style: normal;
+			line-height: 1.1em;
+			letter-spacing: -1px;
+			text-align:center;
+			font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+		}
+
+	.white-box {
+			vertical-align: top;
+			width: 160px;
+			margin: 15px 20px 20px;
+			padding: 20px 10px 10px;
+			text-decoration: none;
+			font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+			text-align:center;
+			display:inline-block;
+
+		h2 {
+			font-size: 21px;
+			margin: 3px 0 0 10px;
+			color: #369;
+			font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+			font-weight: bold;
+
+		}
+
+		h3 {
+			margin: 5px 0 10px;
+			font-size: 14px;
+			font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+			color: #C00;
+		}
+
+		h4 {
+			color: #222;
+			font-size: 14px;
+			line-height: 1.4em;
+			margin-top: 5px;
+			font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+		}
+	}
+}
+
+div.services {
+	width:820px;
+	margin:0 auto;
+
+	.column {
+		width: 380px;
+		float: left;
+		display:block;
+		text-align:center;
+		padding-bottom:20px;
+
+		h3 {
+			margin: 5px auto;
+			width: 300px;
+			font-size: 14px;
+			font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+			color: #C00;
+			font-weight: bold;
+			border-bottom: 1px solid #E8E8E8;
+			padding-bottom: 5px;
+		}
+
+		ul {
+			margin-bottom: 15px;
+
+			li {
+				list-style-type:none;
+				font-size: 22px;
+				font-weight: 500;
+				color: #222;
+				line-height: 150%;
+				padding: 0 0 8px;
+				font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+
+				small {
+					color: #666;
+					font-size: 12px;
+					font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+					display:block;
+					font-weight:normal;
+				}
+			}
+		}
+	}
+
+}
+
+ul.footer {
+	text-align:center;
+	margin: 0;
+	padding: 0;
+
+	li {
+		list-style-type: none;
+		margin: 0;
+		padding: 10px 0;
+		font-size: 12px;
+		font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+		color: #369;
+	}
+
+}
+.red {
+			color: #C00;
+			font-size:14px;
+			font-weight:bold;
+}
+.endfooter {
+	font-size: 10px;
+	color: #999;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	margin-top: 50px;
+	text-align:center;
+	display:block;
+	padding-bottom: 50px;
+
+	a {
+		color: #369;
+		text-decoration: none;
 	}
 }
